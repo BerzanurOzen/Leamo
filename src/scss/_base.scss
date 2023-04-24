@@ -23,18 +23,24 @@ a {
   color: inherit;
 }
 
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
-}
 p {
   font-family: Helvetica;
 }
 h1 {
   font-family: Helvetica-Bold;
   font-size: 40px;
+  color: #000000;
+  letter-spacing: 0;
+}
+h2 {
+  font-family: Helvetica-Bold;
+  font-size: 46px;
+  color: #000000;
+  letter-spacing: 0;
+}
+h3 {
+  font-family: Helvetica-Bold;
+  font-size: 22px;
   color: #000000;
   letter-spacing: 0;
 }
