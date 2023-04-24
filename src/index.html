@@ -8,24 +8,47 @@
   </head>
   <body>
     <nav>
-      <img src="img/logo-leamo.png" alt="logo de leamo" />
-      <a class="ancre" href="#">Home</a>
-      <a class="ancre" href="#">Produits</a>
-      <a class="ancre" href="#">Nos valeurs</a>
-      <a class="ancre" href="#">Shop</a>
-      <a class="ancre" href="#">Find us</a>
+      <div class="container">
+        <div class="row">
+          <img
+            class="logo"
+            class="col-"
+            src="img/logo-leamo.png"
+            alt="logo de leamo"
+          />
+          <div class="col"><a class="ancre" href="#">Home</a></div>
+          <div class="col"><a class="ancre" href="#">Produits</a></div>
+          <div class="col"><a class="ancre" href="#">Nos valeurs</a></div>
+          <div class="col"><a class="ancre" href="#">Shop</a></div>
+          <div class="col"><a class="ancre" href="#">Find us</a></div>
+        </div>
+      </div>
     </nav>
 
     <main>
-      <div class="intro">
-        <h1>LET'S START</h1>
-        <p>
-          LEAMO, c’est de la limonade bio réalisée dans le respect de la recette
-          traditionnelle de la limonade tout en diminuant les sucres.
-        </p>
-        <img class="intro-img" src="img/leamo_art.png" alt="leamo" />
+      <div class="container">
+        <div class="row">
+          <div class="intro">
+            <div class="col-2 col-sm-12">
+              <h1 class="title-left">LET'S START</h1>
+            </div>
+            <div class="col-2 col-sm-12">
+              <p class="intro-text">
+                LEAMO, c’est de la limonade bio réalisée dans le respect de
+                <br />
+                la recette traditionnelle de la limonade tout en diminuant
+                <br />
+                les sucres.
+              </p>
+            </div>
+            <div class="col">
+              <img class="intro-img" src="img/leamo_art.png" alt="leamo" />
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
