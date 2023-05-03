@@ -8,15 +8,12 @@
 }
 .product-table1 {
   background-color: #e4c5ff;
-  margin: 38px 17px 35px 40px;
 }
 .product-table2 {
   background-color: #ffdfc6;
-  margin: 38px 17px 35px 0px;
 }
 .product-table3 {
   background-color: #ffc5ff;
-  margin: 38px 40px 35px 0px;
 }
 .price-table {
   background-color: #c5f7fe;
@@ -40,7 +37,33 @@ h4 {
 }
 .more-drink {
   background-color: #d9ffc4;
+  padding: 20%;
 }
 .img-alter {
-  max-width: 100px;
+  margin: 41px 41px;
+}
+
+.btn-moredrink {
+  background-color: #ffc5ff;
+  padding: 15px 122px;
+  background: #fec5cc;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 769px) {
+  .product-table1,
+  .product-table2,
+  .product-table3 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .product-table1,
+  .product-table2,
+  .product-table3 {
+    width: 100%;
+    float: none;
+  }
 }

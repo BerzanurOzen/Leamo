@@ -5,11 +5,14 @@ nav {
   padding-bottom: 19px;
   padding-left: 17px;
 }
+
 .ancre {
   text-decoration: none;
   font-family: Helvetica;
 }
-.logo {
-  max-width: 30%;
-  height: 100px;
+
+@media screen and (max-width: 576px) {
+  .ancre {
+    display: none;
+  }
 }
