@@ -32,25 +32,25 @@ h4 {
   letter-spacing: 0;
 }
 .img-select {
-  max-width: 100;
+  max-width: 80%;
   margin: 28px 38px;
+  height: 50%;
 }
 .more-drink {
   background-color: #d9ffc4;
   padding: 22%;
 }
 .img-alter {
-  margin: 41px 41px;
   position: absolute;
   left: 1%;
   right: 30%;
-  top: 125%;
+  top: 175%;
 }
 .alter-texte {
   position: absolute;
   left: 50%;
   right: 0%;
-  top: 143%;
+  top: 183%;
 }
 
 .btn-moredrink {
@@ -66,8 +66,9 @@ h4 {
   .product-table2,
   .product-table3,
   .img-alter {
-    width: 33.33%;
+    width: 25%;
     float: left;
+    margin: 53px 40px;
   }
 }
 
@@ -75,8 +76,9 @@ h4 {
   .product-table1,
   .product-table2,
   .product-table3 {
-    width: 100%;
+    width: 80%;
     float: none;
+    margin: 20px 50px;
   }
   .img-alter {
     width: 0;

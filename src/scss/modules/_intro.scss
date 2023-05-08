@@ -1,6 +1,6 @@
 .intro {
   background-color: #f7ffc4;
-  padding: 70px 70px 70px 0px;
+  padding: 50px 70px 70px 0px;
 }
 .intro-img {
   max-width: 100%;
@@ -12,6 +12,27 @@
 .intro-text {
   padding: 0px 68px 97px 9px;
 }
-.title-left {
-  padding: 99px 68px 13px 9px;
+
+@media only screen and (min-width: 769px) {
+  .intro-img {
+    width: 26%;
+    float: left;
+  }
+  .title-left {
+    padding: 99px 68px 13px 9px;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .intro-img {
+    width: 40%;
+    top: 20%;
+    left: 27%;
+  }
+  .intro-text {
+    padding: 200px 68px 0px 9px;
+  }
+  .title-left {
+    padding: 0px 68px 13px 9px;
+  }
 }
