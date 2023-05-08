@@ -37,10 +37,20 @@ h4 {
 }
 .more-drink {
   background-color: #d9ffc4;
-  padding: 20%;
+  padding: 22%;
 }
 .img-alter {
   margin: 41px 41px;
+  position: absolute;
+  left: 1%;
+  right: 30%;
+  top: 125%;
+}
+.alter-texte {
+  position: absolute;
+  left: 50%;
+  right: 0%;
+  top: 143%;
 }
 
 .btn-moredrink {
@@ -48,22 +58,27 @@ h4 {
   padding: 15px 122px;
   background: #fec5cc;
   border-radius: 15px;
+  position: absolute;
 }
 
 @media only screen and (min-width: 769px) {
   .product-table1,
   .product-table2,
-  .product-table3 {
+  .product-table3,
+  .img-alter {
     width: 33.33%;
     float: left;
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 776px) {
   .product-table1,
   .product-table2,
   .product-table3 {
     width: 100%;
     float: none;
+  }
+  .img-alter {
+    width: 0;
   }
 }

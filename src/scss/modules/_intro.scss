@@ -1,9 +1,13 @@
 .intro {
   background-color: #f7ffc4;
+  padding: 70px 70px 70px 0px;
 }
 .intro-img {
   max-width: 100%;
   height: auto;
+  position: absolute;
+  left: 60%;
+  top: 100px;
 }
 .intro-text {
   padding: 0px 68px 97px 9px;
