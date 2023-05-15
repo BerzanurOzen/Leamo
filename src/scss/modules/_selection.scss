@@ -3,9 +3,7 @@
   padding: 31px;
   display: block;
 }
-.button-select {
-  margin: 12px;
-}
+
 .product-table1 {
   background-color: #e4c5ff;
 }
@@ -24,12 +22,17 @@
   color: #000000;
   letter-spacing: 0;
   text-align: right;
+  padding-right: 10px;
+}
+h3 {
+  padding: 5px 16px;
 }
 h4 {
   font-family: Helvetica-Bold;
   font-size: 36px;
-  color: #000000;
+  color: black;
   letter-spacing: 0;
+  padding: 20px 20px 20px 0px;
 }
 .img-select {
   max-width: 80%;
@@ -45,12 +48,6 @@ h4 {
   left: 1%;
   right: 30%;
   top: 175%;
-}
-.alter-texte {
-  position: absolute;
-  left: 50%;
-  right: 0%;
-  top: 183%;
 }
 
 .btn-moredrink {
@@ -70,6 +67,22 @@ h4 {
     float: left;
     margin: 53px 40px;
   }
+  .alter-texte {
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 183%;
+    font-size: 26px;
+  }
+  .button-select {
+    margin: 12px;
+    padding: 10px 35% 10px 40%;
+    background-color: #fec5cc;
+    border-radius: 15px;
+    font-family: Helvetica-Bold;
+    font-size: 20px;
+    border: none;
+  }
 }
 
 @media only screen and (max-width: 776px) {
@@ -82,5 +95,16 @@ h4 {
   }
   .img-alter {
     width: 0;
+  }
+  .alter-texte {
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 183%;
+    font-size: 16px;
+  }
+  .button-select {
+    margin: 12px;
+    padding: 10px 30% 10px 40%;
   }
 }

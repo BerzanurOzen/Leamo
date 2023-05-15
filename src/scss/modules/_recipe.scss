@@ -4,12 +4,11 @@
 .recipe_img {
   max-width: 20%;
 }
-.recipe_title {
-  text-align: start;
+.recipeleft_img {
+  max-width: 20%;
+  float: right;
 }
-.recipe_title_side {
-  text-align: start;
-}
+
 .recipe_table {
   border: 1px ridge black;
 }
@@ -18,4 +17,37 @@
 }
 .commitment {
   background-color: #f7ffc4;
+}
+@media only screen and (min-width: 769px) {
+  .recipe_img {
+    max-width: 20%;
+  }
+  .recipeleft_img {
+    max-width: 20%;
+    float: right;
+  }
+  .recipe_title {
+    text-align: start;
+    font-size: 46px;
+  }
+  .recipe-text {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .recipe_img {
+    max-width: 50%;
+  }
+  .recipeleft_img {
+    max-width: 50%;
+    float: right;
+  }
+  .recipe_title {
+    text-align: start;
+    font-size: 23px;
+  }
+  .recipe-text {
+    font-size: 11px;
+  }
 }
