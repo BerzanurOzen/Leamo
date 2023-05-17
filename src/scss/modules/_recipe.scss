@@ -35,9 +35,14 @@
   .recipe_title {
     text-align: start;
     font-size: 46px;
+    position: relative;
+    left: 65%;
   }
   .recipe-text {
     font-size: 21px;
+    position: relative;
+    left: 70%;
+    top: 30px;
   }
   .recipe_title_side {
     position: relative;
@@ -70,9 +75,14 @@
   .recipe_title {
     text-align: start;
     font-size: 23px;
+    position: relative;
+    left: 35%;
   }
   .recipe-text {
     font-size: 11px;
+    position: relative;
+    left: 47%;
+    top: 5px;
   }
   .recipe_title_side {
     position: relative;
@@ -81,7 +91,7 @@
   .recipe-text-side {
     position: relative;
     right: 60%;
-    top: 10px;
+    top: 5px;
     margin: 0 0 10px 0;
   }
 }
