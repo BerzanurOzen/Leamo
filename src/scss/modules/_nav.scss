@@ -15,4 +15,29 @@ nav {
   .ancre {
     display: none;
   }
+  .burger-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .burger-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 0;
+    position: relative;
+    left: 550%;
+  }
+
+  .burger-menu-items {
+    display: none;
+  }
+
+  .burger-menu-items.active {
+    display: block;
+  }
+}
+@media only screen and (min-width: 769px) {
 }

@@ -1,0 +1,48 @@
+.recipe_table {
+  border: 1px ridge black;
+}
+.commitment_img {
+  max-width: 50%;
+}
+.commitment {
+  background-color: #f7ffc4;
+}
+@media only screen and (min-width: 769px) {
+  .commitment_img {
+    height: auto;
+    width: 30%;
+    position: relative;
+    left: 55%;
+  }
+  .commitment-text {
+    position: relative;
+    bottom: 130px;
+    left: 130px;
+  }
+  .commitment_title {
+    position: relative;
+    left: 100px;
+    top: 70px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .commitment_img {
+    height: auto;
+    width: 60%;
+    position: relative;
+    left: 25%;
+    margin: 30px;
+  }
+  .commitment-text {
+    position: relative;
+    left: 5px;
+  }
+  .commitment_title {
+    position: relative;
+    right: 20px;
+  }
+  .commitment {
+    padding: 30px;
+  }
+}

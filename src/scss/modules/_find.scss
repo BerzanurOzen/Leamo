@@ -27,3 +27,20 @@
   left: 39%;
   top: 55%;
 }
+@media only screen and (max-width: 769px) {
+  .find_title {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+  }
+  .find_country {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+  }
+  .btn-findus {
+    position: relative;
+    left: 20%;
+    bottom: 90px;
+  }
+}
